@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 /* 
- * By:              Florian Manhartseder
- * Date:            22.11.2023
- * Description:     Uebungsaufgaben Input-Output -> C#
+ * Author:                  Florian Manhartseder
+ * Description:             Uebungsaufgaben Input-Output -> C#
+ * Creation-Date:           22.11.2023
+ * Last-Changed:            22.11.2023
 */
-
 
 
 namespace IO_Operations
@@ -18,7 +18,7 @@ namespace IO_Operations
     {
         static void Zinsberechnnung(int laufzeit, double startkapital=0, double zinssatz=0)
         {
-            // Bei Mitagbe von Startkapital und Zinssatz wird nichts vom User eingelesen
+            // Bei Mitagbe von Startkapital und Zinssatz wird der User zu keiner Eingabe aufgefordert
 
             double endkapital = 0;
 
